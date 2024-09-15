@@ -52,7 +52,7 @@ class Chatbox {
         const iconElement = document.createElement('img');
         iconElement.classList.add('message-icon');
         // iconElement.textContent = sender === 'user' ? '👤' : '🤖';
-        iconElement.src = sender === 'user' ? '/static/images/user.png' : '/static/images/chatbot.png';
+        iconElement.src = sender === 'user' ? '/static/assets/images/user.png' : '/static/assets/images/chatbot.png';
         iconElement.alt = sender === 'user' ? 'User' : 'Bot';
         
         const contentElement = document.createElement('div');

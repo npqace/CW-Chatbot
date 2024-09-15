@@ -34,7 +34,7 @@ VSTEP Q&A Bot is a Flask-based web application that provides answers to question
 
 5. Run the application:
    ```
-   python main.py
+   python app.py
    ```
 
 6. Access the web interface at `http://localhost:5000`
