@@ -6,7 +6,7 @@ body, html {
 }
 
 .main-container {
-    background-image: url('/static/images/background.png');
+    background-image: url('/static/assets/images/background.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -191,6 +191,6 @@ h1 {
 .robot-mascot {
     position: absolute;
     bottom: 20px;
-    right: 80px;
+    right: 60px;
     width: 500px;
 }
